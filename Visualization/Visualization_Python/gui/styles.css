@@ -1,0 +1,98 @@
+/* General Style */
+QWidget {
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 10px;
+}
+
+/* Style for QLabel */
+QLabel {
+    color: #333; /* Dark text color */
+    font-size: 18px;
+    margin: 0; /* Remove margin */
+}
+
+/* Style for QPushButton */
+QPushButton {
+    background-color: #4682B4; /* Steel blue background */
+    border: none;
+    color: black;
+    padding: 15px 30px; /* Button size */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; /* Font size */
+    margin: 6px 3px;
+    transition-duration: 0.6s;
+    border-radius: 5px;
+    box-shadow: 0 6px #666; /* Shadow effect */
+}
+
+QPushButton:hover {
+    background-color: gray; /* Darker color on hover */
+}
+
+QPushButton:pressed {
+    background-color: #5700FF; /* Dark purple on press */
+    box-shadow: 0 3px #666; /* Shadow on press */
+    transform: translateY(3px); /* Button press effect */
+}
+
+/* Style for HostInterfaceWidget */
+QFrame {
+    border: 2px solid #333; /* Dark border */
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Style for ClusterInfoWidget */
+.ClusterInfoWidget {
+    background-color: #F2F2F2; /* Light gray background */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Style for ClusterWidget */
+.ClusterWidget {
+    background-color: #F2F2F2; /* Light gray background */
+    border: 2px dashed #333; /* Dashed border */
+    border-radius: 10px;
+    padding: 10px; /* Reduce padding inside ClusterWidget */
+}
+
+/* Style for QScrollBar */
+QScrollBar:vertical {
+    border: 2px solid #999999;
+    background: #F0F0F0;
+}
+
+/* Style for QMenuBar */
+QMenuBar {
+    font-size: 18px;
+    background-color: #A9A9A9; /* Steel blue background */
+}
+
+QMenuBar::item {
+    border: 2.5px solid #A9A9A9; /* Border color */
+    color: #F2F3B;  /* Light sky blue text color */
+    padding: 50% 100%; /* Padding for menu item */
+    margin: 0;
+    background-color: #ffffff; /* White background */
+}
+
+QMenuBar::item:selected {
+    background-color: #4682B4; /* Steel blue when selected */
+}
+
+QMenuBar::item:disabled {
+    background-color: #A9A9A9; /* Steel blue when disabled */
+}
+
+QMenu::item {
+    padding: 5px 10px; /* Padding for QMenu items */
+}
+
+QMenuBar::item {
+    padding: 40px 45px; /* Adjust spacing between items */
+    min-width: 50px;   /* Set minimum width for menu items */
+    max-width: 100px;  /* Set maximum width for menu items */
+}

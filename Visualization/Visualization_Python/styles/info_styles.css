@@ -1,0 +1,18 @@
+QDialog {
+    background-color: #f0f0f0;  # Light gray background
+    border-radius: 10px;  # Rounded corners
+}
+QLabel {
+    font-size: 14px;  # Set the font size for labels
+    color: #333;  # Dark gray text color
+}
+QPushButton {
+    background-color: #4CAF50;  # Green background for buttons
+    color: {WHITE};  # White text color
+    font-size: 14px;  # Font size for buttons
+    padding: 10px;  # Padding inside buttons
+    border-radius: 5px;  # Rounded corners for buttons
+}
+QPushButton:hover {
+    background-color: #45a049;  # Darker green on hover
+}
